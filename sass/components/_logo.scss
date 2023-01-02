@@ -1,0 +1,25 @@
+.logo {
+    color: var(--accent-color);
+    text-decoration: none;
+
+    font-family: var(--font-logo), var(--font-family);
+
+    @include fontuse(700, 26px, 1.19, 0.03em);
+
+    // font-weight: 700;
+    // font-size: 26px;
+    // line-height: 1.19;
+    // letter-spacing: 0.03em;
+
+    &--header {
+            color: var(--logo-header-color);
+    
+    }
+
+    &--footer {
+        color: var(--secondary-color);
+
+    }
+
+}
+
