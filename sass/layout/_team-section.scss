@@ -4,11 +4,10 @@
     &__header {
         color: var(--secondary-text-color);
 
-        @include fontuse(700, 36px, 1.17, 0.03em);
-        // font-weight: 700;
-        // font-size: 36px;
-        // line-height: 1.17;
-        // letter-spacing: 0.03em;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
 
         text-align: center;
 
@@ -35,12 +34,10 @@
     &__name {
         color: var(--secondary-text-color);
 
-        @include fontuse(500, 16px, 1.19, 0.03em);
-
-        // font-weight: 500;
-        // font-size: 16px;
-        // line-height: 1.19;
-        // letter-spacing: 0.03em;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 
         text-align: center;
 
@@ -48,11 +45,11 @@
     }
 
     &__position {
-        @include fontuse($fsize: 16px, $lheight: 1.19, $lspacing: 0.03em);
 
-        // font-size: 16px;
-        // line-height: 1.19;
-        // letter-spacing: 0.03em;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
 
         text-align: center;
 

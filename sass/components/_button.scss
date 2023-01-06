@@ -10,12 +10,10 @@
 
     font-family: inherit;
 
-    @include fontuse(700, 16px, 1.875, 0.06em);
-
-    // font-weight: 700;
-    // font-size: 16px;
-    // line-height: 1.875;
-    // letter-spacing: 0.06em;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.875;
+    letter-spacing: 0.06em;
 
     cursor: pointer;
 

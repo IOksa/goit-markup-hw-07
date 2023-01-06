@@ -10,14 +10,15 @@
 
     &__thumb {
         display: flex;
-        justify-content: space-between;
+        // justify-content: space-between;
+        gap: 93px;
         align-items: baseline;
 
     }
 
     &__container {
         display: flex;
-        gap: 70px;
+        gap: 93px;
         align-items: baseline;
 
     }

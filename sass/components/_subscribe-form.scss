@@ -1,9 +1,8 @@
 .subscribe{
     &__label {
-    @include fontuse($fweight: 700, $lheight: 1.14);
-
-        // line-height: 1.14;
-        // font-weight: 700;
+  
+        line-height: 1.14;
+        font-weight: 700;
 
         text-transform: uppercase;
         color: var(--secondary-color);
@@ -36,10 +35,9 @@
 
         color: var(--contacts-footer-color);
 
-        @include fontuse($fweight: 400, $fsize: 16px, $lheight: 1.25);
-        // font-weight: 400;
-        // font-size: 16px;
-        // line-height: 1.25;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 1.25;
     }
 
     &__button {

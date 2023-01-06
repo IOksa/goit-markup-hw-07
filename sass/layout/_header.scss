@@ -31,11 +31,10 @@
 
     &__link {
         color: var(--secondary-text-color);
-        @include fontuse($fweight:500, $lheight:1.14, $lspacing:0.02em);
-
-        // font-weight: 500;
-        // line-height: 1.14;
-        // letter-spacing: 0.02em;
+       
+        font-weight: 500;
+        line-height: 1.14;
+        letter-spacing: 0.02em;
 
         text-decoration: none;
 

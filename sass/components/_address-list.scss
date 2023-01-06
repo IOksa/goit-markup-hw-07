@@ -12,9 +12,8 @@
 
     font-style: normal;
 
-    @include fontuse($lheight: 1.7, $lspacing: 0.03em);
-    // line-height: 1.7;
-    // letter-spacing: 0.03em;
+    line-height: 1.7;
+    letter-spacing: 0.03em;
 
     text-decoration: none;
 

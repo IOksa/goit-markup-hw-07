@@ -22,12 +22,11 @@
     &__header {
         color: var(--secondary-text-color);
 
-        @include fontuse (700, 14px, 1.14, 0.03em);
+        font-size: 14px;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
 
-        // font-size: 14px;
-        // font-weight: 700;
-        // line-height: 1.14;
-        // letter-spacing: 0.03em;
         text-transform: uppercase;
 
         margin-top: 30px;
@@ -36,9 +35,9 @@
 
     &__text {
 
-        @include fontuse ($lheight: 1.7, $lspacing: 0.03em);
-        // line-height: 1.7;
-        // letter-spacing: 0.03em;
+    
+        line-height: 1.7;
+        letter-spacing: 0.03em;
     }
 
 }

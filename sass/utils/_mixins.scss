@@ -3,13 +3,6 @@
     background-color: $bgcolor;
 }
 
-@mixin fontuse($fweight:inherit, $fsize:inherit, $lheight:inherit, $lspacing:inherit){
-    font-weight: $fweight;
-    font-size: $fsize;
-    line-height: $lheight;
-    letter-spacing: $lspacing;
-}
-
 @mixin position($position: absolute, $top: 0, $left: 0){
     position: $position;
     top: $top;

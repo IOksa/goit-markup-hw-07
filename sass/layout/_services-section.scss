@@ -5,12 +5,10 @@
     &__header {
         color: var(--secondary-text-color);
 
-        @include fontuse(700, 36px, 1.17, 0.03em);
-
-        // font-weight: 700;
-        // font-size: 36px;
-        // line-height: 1.17;
-        // letter-spacing: 0.03em;
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 1.17;
+        letter-spacing: 0.03em;
 
         text-align: center;
 
@@ -39,11 +37,9 @@
 
         width: 100%;
 
-        @include fontuse($fweight: 700, $lheight: 1.14, $lspacing: 0.03em);
-
-        // font-weight: 700;
-        // line-height: 1.14;
-        // letter-spacing: 0.03em;
+        font-weight: 700;
+        line-height: 1.14;
+        letter-spacing: 0.03em;
 
         text-transform: uppercase;
         text-align: center;
